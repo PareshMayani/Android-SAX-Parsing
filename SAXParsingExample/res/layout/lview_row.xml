@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+	<TextView android:layout_height="wrap_content" android:text="ITEM"
+		android:layout_width="wrap_content" android:id="@+id/txtItem"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#FF0000"></TextView>
+		
+	<TextView android:layout_height="wrap_content" android:text="MANUFACTURER"
+		android:layout_width="wrap_content" android:id="@+id/txtManufacturer"
+		android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+		
+	<TextView android:layout_height="wrap_content" android:text="MODEL"
+		android:layout_width="wrap_content" android:id="@+id/txtModel"
+		android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+		
+   <TextView android:layout_height="wrap_content" android:text="COST"
+		android:layout_width="wrap_content" android:id="@+id/txtCost"
+		android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+		 
+</LinearLayout>
